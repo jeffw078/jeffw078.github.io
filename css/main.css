@@ -1,0 +1,242 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #1C1C1C;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#header-container {
+    background-color: #F5F5F5;
+    /**prevent side white screen **/
+}
+
+.header {
+    padding: 24px 32px;
+    color: #1C1C1C;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-header {
+    padding: 12px 24px;
+    background-color: #ff34a6;
+    border-radius: 5px;
+    border-color: #ff34a6;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: 700;
+    box-shadow: 5px 7px #ffe44d;
+}
+
+.btn-hire {
+    padding: 22px 36px;
+    background-color: #ff34a6;
+    border-radius: 5px;
+    border-color: #ff34a6;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: 900;
+    box-shadow: 5px 7px #ffe44d;
+    font-size: 1.2rem;
+}
+
+/** HERO SECTION **/
+
+#hero-container {
+    background-color: #F5F5F5;
+    color: #1C1C1C;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.hero-text,
+.hero-img {
+    flex: 1;
+}
+
+.hero-text__title {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 900;
+}
+
+.hero-text__description {
+    font-size: 36px;
+    line-height: 28px;
+}
+
+.overtitle {
+    color: #ff34a6;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #1C1C1C;
+}
+
+/** SERVICES SECTION**/
+
+#services-container {
+    background-color: #F5F5F5;
+    padding: 48px 24px;    
+}
+
+#services-container header{
+padding: 48px;
+}
+
+.services-list{
+    margin-left: 150px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+    
+}
+
+.service-card {   
+    width: 250px; 
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    align-content: flex;
+}
+
+.service-card__text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.service-card__text h3 {
+    font-size: 24;
+    line-height: 32px;
+    font-weight: 700;
+}
+    
+.service-card__text p {
+    font-size: 16;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/** END SERVICES SECTION**/
+
+
+
+/**img sizing**/
+
+.w078-logo {
+    width: 100px;
+}
+
+#hero-thumb {
+    width: 800px;
+}
+
+/** WhatsApp button section**/
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+/** END WhatsApp button section**/
+
+/** scroll arrow **/
+.arrow-container {
+    width: 25px;
+    /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+    animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    cursor: pointer;
+    height: 20px;
+    padding-top: 35%;
+}
+
+.arrow-down {
+    height: 6px;
+    background: #1C1C1C;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    border-radius: 5px;
+}
+
+.arrow-down:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 100%;
+    border-radius: 5px;
+    background: #1C1C1C;
+    transform: rotate(-90deg);
+    transform-origin: 0% 100%;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-15px);
+    }
+}
+/** END scroll arrow **/
+
+footer{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 42px;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+footer svg{
+    margin: 10px;
+    fill: #1C1C1C;
+    padding-right: 100px;
+    
+}
