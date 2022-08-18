@@ -21,8 +21,8 @@
     <header id="header-container">
         <div class="container header">
             <img src="./assets/logo.png" class="w078-logo" alt="">
-            
-            <button class="btn-header">Contact</button>
+
+            <a href="https://www.linkedin.com/in/jeffw078" class="btn-header">Contact</a>
         </div>
     </header>
 
@@ -32,62 +32,133 @@
                 <div class="hero-text">
                     <h1 class="hero-text__title">Looking for a FullStack Developer?</h1>
                     <p class="hero-text__description">React & NodeJS Developer</p>
-                    <button class="btn-hire">Hire Now!</button>
+                    <a href="https://www.linkedin.com/in/jeffw078" target="_blank" class="btn-hire">Hire Now!</a>
                 </div>
-                <div class="arrow-container">
-                    <div class="arrow-down"></div>
-                </div>
+                <a href="#services-container">
+                    <div class="arrow-container">
+                        <div class="arrow-down">
+
+                        </div>
+                    </div>
+                </a>
                 <div class="hero-img">
                     <img src="./assets/hero.png" id="hero-thumb" alt="">
                 </div>
             </div>
         </section>
 
-        <section id="services-container">
-            <div class="container services">
+        <section id="skills-container">
+            <div class="container skills">
                 <header>
                     <span class="overtitle">Skills</span>
                     <h2 class="title">Skills to build great solutions</h2>
                 </header>
 
-                <div class="services-list">
+                <div class="skills-list">
 
-                    <div class="service-card">
+                    <div class="skill-card">
                         <img src="./assets/card-1.png" />
-                    <div class="service-card__text">
-                        <h3>Think and transform</h3>
-                        <p>Create awesome aplications across your idea</p>
+                        <div class="skill-card__text">
+                            <h3>Think and transform</h3>
+                            <p>Create awesome aplications across your idea</p>
+                        </div>
                     </div>
-                    </div>  
 
-                     <div class="service-card">
+                    <div class="skill-card">
                         <img src="./assets/card-2.png" />
-                    <div class="service-card__text">
-                        <h3>Front End Developer</h3>
-                        <p>Amazing web apps made with React JS</p>
+                        <div class="skill-card__text">
+                            <h3>Front End Developer</h3>
+                            <p>Amazing web apps made with React JS</p>
+                        </div>
                     </div>
-                    </div> 
 
-                    <div class="service-card">
+                    <div class="skill-card">
                         <img src="./assets/card-3.png" />
-                    <div class="service-card__text">
-                        <h3>Back End Developer</h3>
-                        <p>Fast and secure web apps made with NodeJS</p>
+                        <div class="skill-card__text">
+                            <h3>Back End Developer</h3>
+                            <p>Fast and secure web apps made with NodeJS</p>
+                        </div>
                     </div>
-                    </div> 
-
 
                 </div>
             </div>
         </section>
-    </main>
 
+        <section id="projects-container">
+            <div class="container projects">
+                <header>
+                    <span class="overtitle">My projects</span>
+                    <h2 class="title">Upcoming projects</h2>
+                </header>
+
+                <div class="projects-list">
+                    <div class="project-divider">
+                        <div class="project-card">
+                            <img src="./assets/card-1.png" />
+                            <div class="project-card__text">
+                                <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="./assets/card-2.png" />
+                            <div class="project-card__text">
+                                <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-list">
+                    <div class="project-divider">
+                        <div class="project-card">
+                            <img src="./assets/card-1.png" />
+                            <div class="project-card__text">
+                                <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="./assets/card-2.png" />
+                            <div class="project-card__text">
+                                <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-list">
+                    <div class="project-divider">
+                        <div class="project-card">
+                            <img src="./assets/card-1.png" />
+                            <div class="project-card__text">
+                               <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="./assets/card-2.png" />
+                            <div class="project-card__text">
+                                <h3>Twitter Clone</h3>
+                                <p>Twitter made above a new concept o UI and UX, providing a new experience for users.</p>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </section>
+
+
+    </main>
     <footer>
         <div>
             <img src="./assets/logo.png" class="w078-logo" alt="">
-            </div>
-            <div>
-            <span>&copy;2022 - Todos os direitos reservados</span>
+        </div>
+        <div>
+            <span>&copy;2022 - All rights reserved</span>
         </div>
         </div>
         <div>
@@ -98,14 +169,14 @@
                         d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z" />
                 </svg>
             </a>
-            <a href="https://www.linkedin.com/in/jeffw078/">
+            <a href="https://www.linkedin.com/in/jeffw078/" target="_blank">
                 <?xml version="1.0"?><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
                     width="30px" height="30    px">
                     <path
                         d="M 8 3.0097656 C 4.53 3.0097656 2.0097656 5.0892187 2.0097656 7.9492188 C 2.0097656 10.819219 4.59 12.990234 8 12.990234 C 11.47 12.990234 13.990234 10.870625 13.990234 7.890625 C 13.830234 5.020625 11.36 3.0097656 8 3.0097656 z M 3 15 C 2.45 15 2 15.45 2 16 L 2 45 C 2 45.55 2.45 46 3 46 L 13 46 C 13.55 46 14 45.55 14 45 L 14 16 C 14 15.45 13.55 15 13 15 L 3 15 z M 18 15 C 17.45 15 17 15.45 17 16 L 17 45 C 17 45.55 17.45 46 18 46 L 27 46 C 27.552 46 28 45.552 28 45 L 28 30 L 28 29.75 L 28 29.5 C 28 27.13 29.820625 25.199531 32.140625 25.019531 C 32.260625 24.999531 32.38 25 32.5 25 C 32.62 25 32.739375 24.999531 32.859375 25.019531 C 35.179375 25.199531 37 27.13 37 29.5 L 37 45 C 37 45.552 37.448 46 38 46 L 47 46 C 47.55 46 48 45.55 48 45 L 48 28 C 48 21.53 44.529063 15 36.789062 15 C 33.269062 15 30.61 16.360234 29 17.490234 L 29 16 C 29 15.45 28.55 15 28 15 L 18 15 z" />
                 </svg>
             </a>
-            <a href="http://github.com/jeffw078/">
+            <a href="http://github.com/jeffw078/" target="_blank">
                 <?xml version="1.0"?><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
                     width="30px" height="30px">
                     <path

@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     color: #1C1C1C;
+    transition: 2s all ease;
 }
 
 .container {
@@ -100,16 +101,16 @@ body {
 
 /** SERVICES SECTION**/
 
-#services-container {
+#skills-container {
     background-color: #F5F5F5;
     padding: 48px 24px;    
 }
 
-#services-container header{
+#skills-container header{
 padding: 48px;
 }
 
-.services-list{
+.skills-list{
     margin-left: 150px;
     padding: 48px;
     display: flex;
@@ -117,39 +118,93 @@ padding: 48px;
     
 }
 
-.service-card {   
+.skill-card {   
     width: 250px; 
     max-width: 100%;
     background-color: #fff;
     border-radius: 10px;
 }
 
-.service-card img {
+.skill-card img {
     max-width: 100%;
     border-radius: 5px;
     align-content: flex;
 }
 
-.service-card__text {
+.skill-card__text {
     padding: 32px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.service-card__text h3 {
-    font-size: 24;
+.skill-card__text h3 {
+    font-size: 24px;
     line-height: 32px;
     font-weight: 700;
 }
     
-.service-card__text p {
-    font-size: 16;
+.skill-card__text p {
+    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
 
 /** END SERVICES SECTION**/
+
+
+/** PROJECT SECTION**/
+
+#projects-container {
+    background-color: #F5F5F5;
+    padding: 24px 24px;
+    padding-left: 100px;     
+}
+
+.projects-list{       
+    padding: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;  
+    max-width: 80%;     
+}
+
+.project-card {   
+    width: 300px; 
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    align-content: flex;
+}
+
+.project-card__text {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.project-card__text h3 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 700;
+}
+    
+.project-card__text p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/** END PROJECT SECTION**/
 
 
 
@@ -191,7 +246,7 @@ padding: 48px;
     animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
     cursor: pointer;
     height: 20px;
-    padding-top: 35%;
+    margin-top: 400px;
 }
 
 .arrow-down {
